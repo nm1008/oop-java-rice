@@ -7,15 +7,15 @@ public class Customer {
 	private Address homeAddress; // created another class that defines Address contents [object composition]
 	private Address workAddress;
 
-	public Address getHomeAddress() {
-		return homeAddress;
-	}
-
 	// constructor
 	public Customer(String name, Address homeAddress, Address workAddress) {
 		this.name = name;
 		this.homeAddress = homeAddress;
 		this.workAddress = workAddress;
+	}
+
+	public Address getHomeAddress() {
+		return homeAddress;
 	}
 
 	public void setHomeAddress(Address homeAddress) {
