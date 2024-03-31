@@ -36,25 +36,31 @@ public class FanRunner {
 		PersonExercise person = new PersonExercise();
 
 		StudentExercise student1 = new StudentExercise();
-		student1.setName("Student Nikko");
-		student1.setPhoneNumber(123);
-		student1.setEmail("test@student.com");
-		student1.setCollege("CEU");
-		student1.setClassName("Progamming");
+//		student1.setName("Student Nikko");
+//		student1.setPhoneNumber(123);
+//		student1.setEmail("test@student.com");
+//		student1.setCollege("CEU");
+//		student1.setClassName("Progamming");
 //		System.out.println(student1.getName());
 //		System.out.println(student1.getPhoneNumber());
-		System.out.println(student1);
+//		System.out.println(student1);
 
 		EmployeeExercise employee = new EmployeeExercise();
-		employee.setName("Employee Nikko");
-		employee.setPhoneNumber(312);
-		employee.setEmployeeGrade(8);
-		employee.setTitle("Probationary");
-		employee.setSalary(99999999);
-		employee.setEmployer("Ascenture");
-		employee.setEmail("test@employee.com");
+//		employee.setName("Employee Nikko");
+//		employee.setPhoneNumber(312);
+//		employee.setEmployeeGrade(8);
+//		employee.setTitle("Probationary");
+//		employee.setSalary(99999999);
+//		employee.setEmployer("Ascenture");
+//		employee.setEmail("test@employee.com");
 //		System.out.println(employee.getName());
 //		System.out.println(employee.getPhoneNumber());
-		System.out.println(employee);
+//		System.out.println(employee);
+
+//		Recipe1Abstract recipe = new Recipe1Abstract();
+//		recipe.execute();
+
+		RecipeWithMicrowave microwave = new RecipeWithMicrowave();
+		microwave.execute();
 	}
 }
